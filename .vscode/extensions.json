@@ -1,3 +1,7 @@
 {
-  "recommendations": ["biomejs.biome", "streetsidesoftware.code-spell-checker"]
+  "recommendations": [
+    "3w36zj6.textlint",
+    "biomejs.biome",
+    "streetsidesoftware.code-spell-checker"
+  ]
 }
