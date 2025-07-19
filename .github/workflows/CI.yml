@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  ci-linter:
+    runs-on: ubuntu-latest
+
+    steps:
+      # リポジトリをチェックアウト
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Node.jsをセットアップ
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.node-version'
+
+      # Yarnをセットアップ
+      - name: Setup Yarn
+        run: |
+          corepack enable
+          yarn install --immutable
+
+       # ファイルの静的解析を行う（Biomeを実行する）
+      - name: Run Check
+        run: |
+          yarn check
