@@ -9,7 +9,7 @@
   "devDependencies": {
     "@anthropic-ai/claude-code": "^1.0.56",
     "@biomejs/biome": "^2.1.2",
-    "@google/gemini-cli": "^0.1.12",
+    "@google/gemini-cli": "^0.1.22",
     "@textlint-ja/textlint-rule-preset-ai-writing": "^1.5.0",
     "textlint": "^15.2.0",
     "textlint-filter-rule-comments": "^1.2.2",
