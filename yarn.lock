@@ -15,9 +15,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@anthropic-ai/claude-code@npm:^1.0.56":
-  version: 1.0.56
-  resolution: "@anthropic-ai/claude-code@npm:1.0.56"
+"@anthropic-ai/claude-code@npm:^2.0.51":
+  version: 2.0.51
+  resolution: "@anthropic-ai/claude-code@npm:2.0.51"
   dependencies:
     "@img/sharp-darwin-arm64": "npm:^0.33.5"
     "@img/sharp-darwin-x64": "npm:^0.33.5"
@@ -40,7 +40,7 @@ __metadata:
       optional: true
   bin:
     claude: cli.js
-  checksum: 10c0/ea8ba89a7d7cba2ea26bb878938e78accab736bb589e6e3424cfaf51a08a7c8c49d85914afdda466b735ae51ae3b6321a6f65fec2b5334c90b6d0f99b25bbac1
+  checksum: 10c0/81815548fa1983fad3f7a50434674c98411ba8b238041370a08890ce41b55bf3047c5bf4117638697051e922ea4d9d961b5b8b197abf494168d02e2f04e7a00c
   languageName: node
   linkType: hard
 
@@ -2039,7 +2039,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "coding-rules@workspace:."
   dependencies:
-    "@anthropic-ai/claude-code": "npm:^1.0.56"
+    "@anthropic-ai/claude-code": "npm:^2.0.51"
     "@biomejs/biome": "npm:^2.1.2"
     "@google/gemini-cli": "npm:^0.1.12"
     "@textlint-ja/textlint-rule-preset-ai-writing": "npm:^1.5.0"
